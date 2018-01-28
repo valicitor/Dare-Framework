@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="bdyCanvasParent" clientidmode="Static">
+    <div id="divCanvasDisplayArea" clientidmode="Static">
+        <canvas id="cvsMainView" clientidmode="Static"></canvas>
+    </div>
+    
+    <!-- Application Dependancies -->
+    <script type="text/javascript" src="js/jquery_2_1_4/jquery-2.1.4.js"></script>
+
+    <!-- Basic Controls -->
+    <script type="text/javascript" src="js/Mouse.js"></script>
+    <script type="text/javascript" src="js/Keyboard.js"></script>
+
+    <!-- Basic Information -->
+    <script type="text/javascript" src="js/General.js"></script>
+
+    <!-- Game Objects -->
+    <script type="text/javascript" src="js/Basic/Rectangle.js"></script>
+    <script type="text/javascript" src="js/Basic/ImageMask.js"></script>
+    <script type="text/javascript" src="js/Basic/Text.js"></script>
+
+    <!-- Game Assets -->
+    <script type="text/javascript" src="js/Assets/General/GameAssetGeneral.js"></script>
+    <script type="text/javascript" src="js/Assets/General/BasicAssets.js"></script>
+    <script type="text/javascript" src="js/Assets/ButtonClose.js"></script>
+
+    <!-- Popups -->
+    <script type="text/javascript" src="js/Popups/General/PopupGeneral.js"></script>
+    <script type="text/javascript" src="js/Popups/Settings_Popup.js"></script>
+    <script type="text/javascript" src="js/Popups/Dialog_Popup.js"></script>
+
+    <!-- Screens -->
+    <script type="text/javascript" src="js/Screens/General/ScreenGeneral.js"></script>
+    <script type="text/javascript" src="js/Screens/Loading_Screen.js"></script>
+    <script type="text/javascript" src="js/Screens/Logo_Screen.js"></script>
+    <script type="text/javascript" src="js/Screens/Menu_Screen.js"></script>
+    <script type="text/javascript" src="js/Screens/Game_Screen.js"></script>
+    <script type="text/javascript" src="js/Screens/GameOver_Screen.js"></script>
+
+    <!-- Call Program.js last as it kicks off the application -->
+    <script type="text/javascript" src="js/Program.js"></script>
+</body>
+</html>
